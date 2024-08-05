@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:testing_excel/bargraph.dart';
+import 'package:testing_excel/custm_management.dart';
 import 'package:testing_excel/homepage.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BarGraph(),
+      home: const ManagementSystem(),
     );
   }
 }
